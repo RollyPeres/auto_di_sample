@@ -1,0 +1,29 @@
+name: auto_di_sample
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.6.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  injectable: ^0.3.0
+  get_it: ^4.0.2
+  package_info: ^0.4.0+17
+  bloc: ^4.0.0
+  flutter_bloc: ^4.0.0
+  equatable: ^1.1.1
+
+  user_repository:
+    path: packages/user_repository
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  injectable_generator: ^0.3.4
+  build_runner: ^1.9.0
+
+flutter:
+  uses-material-design: true
